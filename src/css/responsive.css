@@ -1,0 +1,48 @@
+/*untuk tablet*/
+@media all and (max-width: 1000px) {
+    .more-headline {
+        float: left;
+        width: 100%;
+    }
+
+    .main-headline {
+    border-right: none;
+    color: black;
+    padding-right: 0;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+/*untuk smartphone*/
+@media all and (max-width: 670px) {
+    .header-right {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .logo {
+        width: 10px;
+    }
+
+    .header-center {
+        border-bottom: none;
+        padding-right: 10px;
+    }
+    
+    .more-headline {
+        width: 100%;
+    }
+    
+    .main-headline {
+        width: 100%;
+    }
+    img {
+        width: 100%;
+    }
+}
